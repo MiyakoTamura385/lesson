@@ -1,7 +1,14 @@
 @font-face {
     font-family: "riimonaka";
-    src: url("/fonts/riimonaka.woff") format("woff");         
+    src: url("/fonts/riimonaka.woff") format("woff");
 }
+
+@font-face {
+    font-family: "tanuki";
+    src: url("/fonts/TanukiMagic.woff") format("woff"),
+         url("/fonts/TanukiMagic.woff2") format("woff2");
+}
+
 
 :root{
     --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -13,15 +20,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "riimonaka";
+    font-family: "tanuki";
 }
 
 .span{
-    font-family: "riimonaka";
+    font-family: "tanuki";
 }
 
 .text-primary{
-    font-family: "riimonaka";
+    font-family: "tanuki";
     font-size: 15px;
 }
 
