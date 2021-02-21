@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+/* 共通部分
+-------------------------------------*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;;
+}
+
+/* HEADER
+--------------------------------------------*/
+
+#head_line {
+  color: #eddcbc;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #000;
+}
+
+/* nav
+----------------------------------------------*/
+.main-nav  {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+  justify-content: center;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #b0941e;
+}
+.main-nav a:hover {
+  color: #000000;
+  border-bottom: 5px solid #fff;
+}
+
+
+
+/* スライダー
+-----------------------*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100vh;
+    width: auto\9; /* ie8 */
+    margin: 0 auto;
+}
+
+body {
+  background-color: #eddcbc;
+}
+
+.slider {
+  width:1000px; 
+  margin:0 auto;
+  padding:0 0 48px;
+  outline: none;
+}
+
+/* ホーム
+-----------------------------*/
+.home_category {
+  display: flex;
+  background-size: 100%,60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6rem 3rem;
+  min-height: 480px;
+}
+
+
+.home_category_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_category_title h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 10px black;
+  padding-bottom: 1rem;
+}
+
+.home_category_desc p {
+  max-width: 540px;
+  text-align: left;
+  margin: 0 auto 2rem;
+}
+
+
+
+/* フッター
+---------------------*/
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px ;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+/* 店舗情報
+------------------------------------*/
+#location {
+  padding: 4% 5%;
+}
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+  color: #000000;
+}
+.location-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.location-info dl {
+  padding: 12px 10px;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+.location-info dt {
+  color: #b0941e;
+}
+
+.location-map {
+  width: 55%;
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+
+/* iframe */
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* モバイル版
+---------------------------------------*/
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  /* HEADER */
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+    display: flex;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  /* HOME */
+  .home-content {
+    margin-top: 20%;
+  }
+}
+
