@@ -27,20 +27,67 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "tanuki";
 }
 
-.text-primary{
+.text{
     font-family: "tanuki";
-    font-size: 15px;
+    font-size: 20px;
 }
-
 
 /* フッター
 -------------------------*/
 footer {
-    background: red;
+    background: #ff6c94;
     text-align: center;
     padding: 18px 0;
 }
 footer p {
     color: black;
     font-size: 0.875rem;
+}
+
+/* nav
+-------------------------*/
+.collapse {
+    background-color: #ff6c94;
+}
+
+.navbar-dark  {
+    background-color: #ff6c94;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav a {
+    color: black;
+}
+.main-nav :hover {
+    color: #3aacad
+}
+
+.jumbotron {
+    margin-bottom: 34px;
+    padding-bottom: 15px;
+
+}
+header {
+    color: #3aacad;
+}
+
+/* ボディ
+--------------------------------*/
+.card-body {
+    color: #3aacad;
+}
+
+/*  レスポンシブ
+-----------------------------------*/
+@media (max-width: 600px) {
+    .main-nav {
+        font-size: 1rem;
+        margin: 0 20px;
 }
