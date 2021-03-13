@@ -75,13 +75,22 @@ footer p {
 
 }
 header {
-    color: #3aacad;
+    color: #ddfae4;
 }
 
 /* ボディ
 --------------------------------*/
 .card-body {
     color: #3aacad;
+}
+.jumbotron0_3  {
+    background-color: #f8e5ef;
+}
+.jumbotron4_7 {
+    background-color: rgb(226, 247, 233);
+}
+.jumbotron8_11 {
+    background-color: rgb(243, 234, 253);
 }
 
 /*  レスポンシブ
